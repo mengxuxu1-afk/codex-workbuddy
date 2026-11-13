@@ -1,0 +1,3 @@
+# Matches the existing project runtime; no global dependency changes.
+httpx>=0.27,<1
+mcp>=2.3,<3

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" role="img" aria-labelledby="title desc">
+<title id="title">Codex × WorkBuddy：项目一对一，本机协作</title>
+<desc id="desc">Codex负责计划和验收，WorkBuddy负责执行。同一对项目使用同一个实际源码目录，不同项目的会话、锁和状态独立。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7760ce"/></marker></defs>
+<rect width="1440" height="1000" rx="28" fill="#f5f5fc"/>
+<g font-family="Segoe UI,Microsoft YaHei,PingFang SC,sans-serif">
+<text x="60" y="72" font-size="38" fill="#20263b" font-weight="750" text-anchor="start">CODEX × WORKBUDDY</text>
+<text x="60" y="114" font-size="22" fill="#646882" font-weight="400" text-anchor="start">一个客户端可以共用 · 每个项目必须单独绑定和验收</text>
+<rect x="60" y="150" width="1320" height="90" rx="18" fill="#ede8ff" stroke="#ded4ff" stroke-width="2"/>
+<text x="720" y="188" font-size="25" fill="#59439e" font-weight="650" text-anchor="middle">你只向对应的 Codex 项目安排工作</text>
+<text x="720" y="221" font-size="20" fill="#59439e" font-weight="400" text-anchor="middle">Codex 制定计划与验收标准 → WorkBuddy 实施 → Codex 独立检查</text>
+<rect x="60" y="275" width="1320" height="230" rx="18" fill="#fff" stroke="#dfdff0" stroke-width="2"/>
+<rect x="85" y="300" width="350" height="105" rx="18" fill="#f2eeff" stroke="#e2d8fc" stroke-width="2"/>
+<text x="110" y="339" font-size="26" fill="#6049a3" font-weight="700" text-anchor="start">Codex · 项目 1</text>
+<text x="110" y="376" font-size="20" fill="#646882" font-weight="400" text-anchor="start">分析 / 派单 / 独立验收</text>
+<rect x="1005" y="300" width="350" height="105" rx="18" fill="#eaf8f4" stroke="#c8e9df" stroke-width="2"/>
+<text x="1030" y="339" font-size="26" fill="#217e68" font-weight="700" text-anchor="start">WorkBuddy · 项目 1</text>
+<text x="1030" y="376" font-size="19" fill="#477c70" font-weight="400" text-anchor="start">原聊天 / 修改 / 测试 / 回报</text>
+<path d="M455 335L985 335" fill="none" stroke="#7760ce" stroke-width="3"  marker-end="url(#arrow)"/>
+<text x="720" y="322" font-size="19" fill="#675487" font-weight="400" text-anchor="middle">派发明确任务与允许范围</text>
+<path d="M985 385L455 385" fill="none" stroke="#7760ce" stroke-width="3"  marker-end="url(#arrow)"/>
+<text x="720" y="418" font-size="18" fill="#675487" font-weight="400" text-anchor="middle">同一次调用返回关联结果</text>
+<rect x="85" y="439" width="1270" height="44" rx="18" fill="#f8f9fe" stroke="#ebedf5" stroke-width="2"/>
+<text x="720" y="469" font-size="21" fill="#303c60" font-weight="600" text-anchor="middle">两边实际源码目录相同：D:/Projects/Project1</text>
+<rect x="60" y="540" width="1320" height="230" rx="18" fill="#fff" stroke="#dfdff0" stroke-width="2"/>
+<rect x="85" y="565" width="350" height="105" rx="18" fill="#f2eeff" stroke="#e2d8fc" stroke-width="2"/>
+<text x="110" y="604" font-size="26" fill="#6049a3" font-weight="700" text-anchor="start">Codex · 项目 2</text>
+<text x="110" y="641" font-size="20" fill="#646882" font-weight="400" text-anchor="start">分析 / 派单 / 独立验收</text>
+<rect x="1005" y="565" width="350" height="105" rx="18" fill="#eaf8f4" stroke="#c8e9df" stroke-width="2"/>
+<text x="1030" y="604" font-size="26" fill="#217e68" font-weight="700" text-anchor="start">WorkBuddy · 项目 2</text>
+<text x="1030" y="641" font-size="19" fill="#477c70" font-weight="400" text-anchor="start">原聊天 / 修改 / 测试 / 回报</text>
+<path d="M455 600L985 600" fill="none" stroke="#7760ce" stroke-width="3"  marker-end="url(#arrow)"/>
+<text x="720" y="587" font-size="19" fill="#675487" font-weight="400" text-anchor="middle">派发明确任务与允许范围</text>
+<path d="M985 650L455 650" fill="none" stroke="#7760ce" stroke-width="3"  marker-end="url(#arrow)"/>
+<text x="720" y="683" font-size="18" fill="#675487" font-weight="400" text-anchor="middle">同一次调用返回关联结果</text>
+<rect x="85" y="704" width="1270" height="44" rx="18" fill="#f8f9fe" stroke="#ebedf5" stroke-width="2"/>
+<text x="720" y="734" font-size="21" fill="#303c60" font-weight="600" text-anchor="middle">两边实际源码目录相同：D:/Projects/Project2</text>
+<rect x="60" y="810" width="1320" height="140" rx="18" fill="#222941" stroke="#222941" stroke-width="2"/>
+<text x="90" y="852" font-size="25" fill="#ffffff" font-weight="700" text-anchor="start">项目之间不串用</text>
+<text x="90" y="892" font-size="21" fill="#d5daef" font-weight="400" text-anchor="start">Session · 编辑锁 · 任务队列 · 源码 Hash · 日志 · .collab 状态，各项目独立</text>
+<text x="90" y="928" font-size="18" fill="#b9c1de" font-weight="400" text-anchor="start">共享客户端启动 ≠ 共享项目状态；同一桌面 composer 的多项目并发未验收。</text>
+</g>
+</svg>

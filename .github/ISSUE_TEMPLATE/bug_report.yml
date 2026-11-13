@@ -1,0 +1,20 @@
+name: Bug report
+description: Report a reproducible bridge or documentation problem without private data.
+body:
+  - type: markdown
+    attributes:
+      value: 请勿提交真实会话ID、聊天、完整配置、凭据或通知正文。请先使用脱敏占位符。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: Windows、WorkBuddy、Python与Node版本。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤与实际结果
+      description: 提供最小复现、脱敏错误码及预期结果。
+    validations:
+      required: true

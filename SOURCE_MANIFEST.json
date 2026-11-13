@@ -1,0 +1,115 @@
+{
+  "baseline": "desktop-visible-20261112",
+  "baseline_zip_sha256": "a4d943ad6f23f0ae02573bd17ff0bad8b6a4af4c51499c284c05e2fdd7bd5f1e",
+  "source_files": [
+    {
+      "path": "reference/setup/collaboration/acp_mcp.py",
+      "sha256": "0e8854bece6b7945c8c99e4cac9bef4667860ae45552987776e28350973cf87a"
+    },
+    {
+      "path": "reference/setup/collaboration/desktop_bridge.py",
+      "sha256": "9716685366f68240d309afcc1e95f0f852f4ae16704b26cb374bcf2951d779bb"
+    },
+    {
+      "path": "reference/setup/collaboration/desktop_session.js",
+      "sha256": "79f14f6ae41dd76ae28ef59a9cb7bbe21ccecad8d77367f075abbbe5d29a919b"
+    },
+    {
+      "path": "reference/setup/collaboration/install.py",
+      "sha256": "fd89a8da4ae835a2ac649a3543b66050d6c25ff1a8b6d59278b80a5448e5332b"
+    },
+    {
+      "path": "reference/setup/collaboration/project_sync.py",
+      "sha256": "62f58cfc9e5622eb609ed6b66d14ae46c68f3d2e614b883cfff5deae835f9d29"
+    },
+    {
+      "path": "reference/setup/collaboration/test_desktop_bridge.py",
+      "sha256": "e4b00142a471c7778f26cedc752d10344913b042fa4389a9780dfb3f1a39bfaf"
+    },
+    {
+      "path": "reference/setup/collaboration/test_desktop_cdp.py",
+      "sha256": "0a65f95738400e2ec18c90ea04cd925f3c3c4e6aa907878eda889a8305dd9a92"
+    },
+    {
+      "path": "reference/setup/collaboration/test_desktop_session.js",
+      "sha256": "a24bdd3f7db952a463c07aaaecca264b65776484d7d5119b0b6d9b1da999012c"
+    },
+    {
+      "path": "reference/setup/collaboration/test_hook_e2e.py",
+      "sha256": "cbaa4a5e9df3f19adc73cd00b3b6499d3bf389adba50e33a1d9e8fdcc5ec37c5"
+    },
+    {
+      "path": "reference/setup/collaboration/test_project_acp.py",
+      "sha256": "33bdd307fed22af88d523eed594daff7f2616ebf78b5514d88250109106c500a"
+    },
+    {
+      "path": "reference/setup/collaboration/test_project_sync.py",
+      "sha256": "352bea8544b42d8fa977ef3e974f62bea776cee5cc7b06338ad91842e24c482d"
+    },
+    {
+      "path": "reference/setup/collaboration/test_workbuddy_client.py",
+      "sha256": "7362abfc5e6574caedfca2fc3a98f16a49ee9f33a7e936a04984a09da0c7aac9"
+    },
+    {
+      "path": "reference/setup/collaboration/test_workbuddy_local.py",
+      "sha256": "fada9b91a79c85bd2dc7b8178b9bd12658a612727adbea0317958e30edb12e8c"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_acp_bridge/UPSTREAM.md",
+      "sha256": "eb3299b1192449a2d3fc76a0b9bd0b822e14aa6cad29affe2b0a3afd67b8ad19"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_acp_bridge/__init__.py",
+      "sha256": "2fa394dd799c7245fe5fc1d677480586a76c7758cd55e8a1ac246941a0eb4a30"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_acp_bridge/acp_client.py",
+      "sha256": "876f3b82dc7498eca64d9ff90b67096f889b01dd9e14fdf4afaf018a46a9f958"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_acp_bridge/gateway.py",
+      "sha256": "fd718a8d1c4b2466c7cca037f3c2a82e7e59417fba86494474c0fc54c2c5deec"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_acp_bridge/project.py",
+      "sha256": "b0d16022a1258d68dae832fe69b5b3f8ae85d42684b696daa31769a573f984d2"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_acp_bridge/requirements.txt",
+      "sha256": "830bdd4a09df8ecd77a2480a14a354e9581fa38766bf3db1094b7955e38ef1eb"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_acp_bridge/server.py",
+      "sha256": "9986d31a969641f86be4fe7a365fe5e98ecdfc76b9390c758a7bdbe571af1bad"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_client.py",
+      "sha256": "8bd212c98ffb5a13645cc433059469eca7c323ba454e5ebf817f97844c2dcd2f"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_desktop.py",
+      "sha256": "e5a53aafd3d54c75a4dafc6e70d51f2b69879925ecc107896612752aad1f92c4"
+    },
+    {
+      "path": "reference/setup/collaboration/workbuddy_local.py",
+      "sha256": "21d3b5e2775850f23989b37f2d6dcb7a3b3bf7b46e24393273d75e342918faf4"
+    },
+    {
+      "path": "examples/MCP.template.toml",
+      "sha256": "f3e718950849ffe60e59dcb7cda76193d8e2a4011ee6d52c1ef0af8dd4da13b5"
+    },
+    {
+      "path": "examples/desktop.template.json",
+      "sha256": "8ceed3272143373b87181abb19aa50e77b847def7283b8d5f1346fef4c762712"
+    },
+    {
+      "path": "examples/旧通道清理盘点.template.csv",
+      "sha256": "11bb7041b09c3c250c4bd31342531b16d65847e45c3cb2c7e3edf1fb3bece754"
+    },
+    {
+      "path": "examples/项目变量表.template.json",
+      "sha256": "82e24216ccb2d1f229b2cace8be6bb0028aee4836c8543f87cc711e008d1be1a"
+    }
+  ],
+  "note": "Reference source and fake test UUID fixtures only. No live project configuration, chats, credentials or verification state."
+}

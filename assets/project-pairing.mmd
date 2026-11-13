@@ -1,0 +1,17 @@
+flowchart LR
+  subgraph C[Codex]
+    C1[项目1：计划与验收]
+    C2[项目2：计划与验收]
+  end
+  subgraph W[WorkBuddy 桌面版]
+    W1[项目1：绑定原聊天]
+    W2[项目2：绑定原聊天]
+  end
+  C1 -->|限定范围派单| W1
+  W1 -->|关联结果返回| C1
+  C2 -->|限定范围派单| W2
+  W2 -->|关联结果返回| C2
+  C1 --- P1[同一目录 D:/Projects/Project1]
+  W1 --- P1
+  C2 --- P2[同一目录 D:/Projects/Project2]
+  W2 --- P2

@@ -1,0 +1,13 @@
+# Template only; replace all TARGET placeholders in the target project.
+[mcp_servers.workbuddy_TARGET_SLUG]
+command = 'TARGET_PYTHON_ABSOLUTE_PATH'
+args = ['-X', 'utf8', 'TARGET_PROJECT_ABSOLUTE_ROOT/setup/collaboration/acp_mcp.py']
+cwd = 'TARGET_PROJECT_ABSOLUTE_ROOT'
+startup_timeout_sec = 20
+tool_timeout_sec = 1000
+supports_parallel_tool_calls = false
+
+[mcp_servers.workbuddy_TARGET_SLUG.env]
+WB_PROJECT_ID = 'TARGET_PROJECT_ID'
+WB_PROJECT_ROOT = 'TARGET_PROJECT_ABSOLUTE_ROOT'
+WB_CODEX_SESSION = 'ACTUAL_TARGET_CODEX_SESSION_UUID'

@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "root": "TARGET_PROJECT_ABSOLUTE_ROOT",
+  "project_id": "TARGET_PROJECT_ID",
+  "sessions": {
+    "codex": "ACTUAL_TARGET_CODEX_SESSION_UUID",
+    "workbuddy": "ACTUAL_TARGET_WORKBUDDY_SESSION_UUID"
+  },
+  "native_workbuddy_session": "ACTUAL_TARGET_WORKBUDDY_SESSION_UUID",
+  "workbuddy_transport": "desktop_cdp",
+  "workbuddy_route_verified": false,
+  "workbuddy_executable": "SIGNED_WORKBUDDY_EXE_ABSOLUTE_PATH",
+  "desktop_executable_sha256": "REVALIDATED_INSTALLATION_SHA256",
+  "desktop_cdp_port": 9333
+}

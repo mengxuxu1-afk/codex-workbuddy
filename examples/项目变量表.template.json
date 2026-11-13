@@ -1,0 +1,11 @@
+{
+  "TARGET_SLUG": "lowercase_ascii_letters_digits_underscores_starting_with_letter",
+  "PROJECT_ID": "TARGET_PROJECT_ID",
+  "PROJECT_ROOT": "TARGET_PROJECT_ABSOLUTE_ROOT",
+  "MCP_ALIAS": "workbuddy_TARGET_SLUG",
+  "DESKTOP_ADAPTER_KEY": "__wb_TARGET_SLUG_bridge_v1",
+  "REQUEST_KEY_PREFIX": "TARGET_SLUG-event-",
+  "PYTHON": "TARGET_PYTHON_ABSOLUTE_PATH",
+  "CDP_PORT": "Match existing neutral client config; currently 9333",
+  "NOTE": "IDs must come from target host callbacks. Do not create new UUIDs to impersonate host sessions."
+}

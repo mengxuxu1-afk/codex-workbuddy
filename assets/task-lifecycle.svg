@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="780" viewBox="0 0 1440 780" role="img" aria-labelledby="title desc">
+<title id="title">计划—执行—验收：自动回报与受控局部修订</title>
+<desc id="desc">Codex负责计划和验收，WorkBuddy负责执行。同一对项目使用同一个实际源码目录，不同项目的会话、锁和状态独立。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#7760ce"/></marker></defs>
+<rect width="1440" height="780" rx="28" fill="#f5f5fc"/>
+<g font-family="Segoe UI,Microsoft YaHei,PingFang SC,sans-serif">
+<text x="60" y="74" font-size="38" fill="#20263b" font-weight="750" text-anchor="start">一次任务怎样闭环</text>
+<text x="60" y="116" font-size="22" fill="#646882" font-weight="400" text-anchor="start">派单成功不等于工作完成，完成回报不等于验收通过</text>
+<rect x="60" y="185" width="285" height="205" rx="18" fill="#fff" stroke="#dfdff0" stroke-width="2"/>
+<text x="85" y="232" font-size="28" fill="#8973c2" font-weight="700" text-anchor="start">01</text>
+<text x="85" y="286" font-size="25" fill="#20263b" font-weight="650" text-anchor="start">用户安排</text>
+<text x="85" y="329" font-size="18" fill="#626a83" font-weight="400" text-anchor="start">在目标 Codex </text>
+<text x="85" y="359" font-size="18" fill="#626a83" font-weight="400" text-anchor="start">项目提出任务</text>
+<path d="M354 278L390 278" fill="none" stroke="#7760ce" stroke-width="3"  marker-end="url(#arrow)"/>
+<rect x="405" y="185" width="285" height="205" rx="18" fill="#fff" stroke="#dfdff0" stroke-width="2"/>
+<text x="430" y="232" font-size="28" fill="#8973c2" font-weight="700" text-anchor="start">02</text>
+<text x="430" y="286" font-size="25" fill="#20263b" font-weight="650" text-anchor="start">Codex 计划</text>
+<text x="430" y="329" font-size="18" fill="#626a83" font-weight="400" text-anchor="start">明确目标、范围和验收标准</text>
+<path d="M699 278L735 278" fill="none" stroke="#7760ce" stroke-width="3"  marker-end="url(#arrow)"/>
+<rect x="750" y="185" width="285" height="205" rx="18" fill="#fff" stroke="#dfdff0" stroke-width="2"/>
+<text x="775" y="232" font-size="28" fill="#8973c2" font-weight="700" text-anchor="start">03</text>
+<text x="775" y="286" font-size="25" fill="#20263b" font-weight="650" text-anchor="start">WorkBuddy 执行</text>
+<text x="775" y="329" font-size="18" fill="#626a83" font-weight="400" text-anchor="start">同目录实施，遵守原生权限</text>
+<path d="M1044 278L1080 278" fill="none" stroke="#7760ce" stroke-width="3"  marker-end="url(#arrow)"/>
+<rect x="1095" y="185" width="285" height="205" rx="18" fill="#fff" stroke="#dfdff0" stroke-width="2"/>
+<text x="1120" y="232" font-size="28" fill="#8973c2" font-weight="700" text-anchor="start">04</text>
+<text x="1120" y="286" font-size="25" fill="#20263b" font-weight="650" text-anchor="start">Codex 验收</text>
+<text x="1120" y="329" font-size="18" fill="#626a83" font-weight="400" text-anchor="start">检查真实差异，独立运行测试</text>
+<rect x="60" y="440" width="1320" height="110" rx="18" fill="#eaf8f4" stroke="#c8e9df" stroke-width="2"/>
+<text x="90" y="483" font-size="26" fill="#217e68" font-weight="700" text-anchor="start">验收通过 → 交付用户</text>
+<text x="90" y="521" font-size="20" fill="#477c70" font-weight="400" text-anchor="start">关联任务和结果、保留证据、释放锁；没有新任务就不调用模型。</text>
+<rect x="60" y="580" width="1320" height="145" rx="18" fill="#f0eaff" stroke="#e0d5fa" stroke-width="2"/>
+<text x="90" y="624" font-size="26" fill="#6049a3" font-weight="700" text-anchor="start">有具体问题 → 定向局部返修</text>
+<text x="90" y="663" font-size="21" fill="#675487" font-weight="400" text-anchor="start">沿原任务链保留正确成果与累计次数，不换聊天、不全局重做、不无限重试。</text>
+<text x="90" y="699" font-size="18" fill="#675487" font-weight="400" text-anchor="start">超时或未知状态：保留现场，不自动重发；桌面原生权限仍需用户确认。</text>
+</g>
+</svg>
